@@ -34,7 +34,7 @@ function User_details() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://nourish-backend-h78c.onrender.com/register", formData);
+      const response = await axios.post("https://nourish-backend-t4s3.onrender.com/register", formData);
       console.log("Data submitted successfully:", response.data);
       alert("User details submitted successfully!");
       window.location.href = "https://wa.me/+15551810144";
